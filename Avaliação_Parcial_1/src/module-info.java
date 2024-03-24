@@ -1,8 +1,2 @@
-/**
- * 
- */
-/**
- * 
- */
-module Avaliação_Parcial_1 {
+module Avaliacao_Parcial_1 {
 }
