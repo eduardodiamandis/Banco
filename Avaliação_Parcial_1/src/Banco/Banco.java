@@ -81,8 +81,6 @@ public class Banco {
         double saque = entrada.nextDouble();
         contas[indiceConta].sacar(saque);
         System.out.println("Saque finalizado.\n");
-        // adicionado
-        System.out.println("CPMF = " + contas[indiceConta].getCPMF());
     }
 
     public static void interacaoDepositar(ContaBancaria[] contas) {
