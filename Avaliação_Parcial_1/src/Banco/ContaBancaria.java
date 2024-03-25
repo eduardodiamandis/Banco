@@ -19,7 +19,7 @@ public class ContaBancaria {
 		this.saldo = this.saldo + valor;
 		}
 	public void sacar(double valor) {
-		double desconto = valor * 0.25;
+		double desconto = valor * 0.0025;
 		this.saldo = this.saldo - valor;
 		this.CPMF = desconto;
 		
